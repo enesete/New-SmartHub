@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartHub</title>
+    <link rel="stylesheet" href="/Ecommerce/styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="/Ecommerce/images/logo.png" alt="" width="240px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Início</a></li>
+              <li><a href="products.html">Produtos</a></li>
+              <li><a href="account.html">Conta</a></li>
+              <!-- TODo: 22:20 -->
+            </ul>
+          </nav>
+          <a href="cart.html"
+            ><img src="/Ecommerce/images/cart.png" alt="" width="30px" height="30px"
+          /></a>
+          <img
+            src="/Ecommerce/images/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              De um Novo Estilo ao <br />
+              seu Trabalho!
+            </h1>
+            <p>
+              Acredite, trabalhe duro e alcance o sucesso que você merece
+              <br>
+              a perseverança sempre compensa.
+            </p>
+            <a href="" class="btn">Ver Agora &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="/Ecommerce/images/image1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- Featurd Categories--------->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="/Ecommerce/images/image2.png" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="/Ecommerce/images/image3.png" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="/Ecommerce/images/image4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- Produtos em destaque --------->
+    <div class="small-container">
+      <h2 class="title">Produtos em destaque</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details.html">
+            <img src="/Ecommerce/images/products/product-1.png" alt=""
+          /></a>
+          <h4>PC Gamer</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>R$3.750,00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-13.png" alt="">
+          <h4>Dualsense</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>R$400,00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-3.png" alt="" />
+          <h4>Playstation 5</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>R$3.599,00</p>
+        </div>
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-4.png" alt="" />
+          <h4>Cadeira Gamer</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>R$899,00</p>
+        </div>
+      </div>
+      <h2 class="title">Outros Produtos</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-5.png" alt="" />
+          <h4>Geforce RTX 3090</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>R$4.500,00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-6.png" alt="" />
+          <h4>Geforce RTX 4090</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>R$6.000,00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Ecommerce/images/exclusive.png" alt="" />
+          <h4>Smart Band 4</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>R$200,00</p>
+        </div>
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-8.png" alt="" />
+          <h4>AirPods 4</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>R$1.900,00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-9.png" alt="" />
+          <h4>Iphone 15 Pro Max - <br>
+          Azul 256gb</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>R$6.000,00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-10.png" alt=""/>
+          <h4>Samsumg S24 Ultra - <br>
+          Titânio Natural 256gb</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>R$5.000,00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-11.png" alt="" />
+          <h4>Scooter Elétrica</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>R$9.960,00</p>
+        </div>
+        <div class="col-4">
+          <img src="/Ecommerce/images/products/product-12.png" alt="" />
+          <h4>Xbox Series S</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>R$2.599,00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-------- Offer --------->
+    <div class="header">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="/Ecommerce/images/exclusive.png" class="offer-img" alt="" />
+          </div>
+          <div class="col-2">
+            <p>Disponível exclusivamente na SmartHub</p>
+            <h1>Smart Band 4</h1>
+            <small
+              >O Smart Band 4 oferece uma tela AMOLED de 0,95 polegadas,<br>
+               monitoramento de batimentos cardíacos,
+               rastreamento de sono e até 20 dias de autonomia.
+               Com resistência à água (IPX7) e suporte para 6 modos esportivos, é uma excelente opção acessível 
+              para quem busca um relogio inteligente.
+            </small><br>
+            <a href="" class="btn">Compre Agora &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------ Testimonial  ------>
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+
+            <p>
+              "O site tem uma boa variedade de produtos
+              e a entrega foi rápida. A experiência de compra foi fácil, mas sinto falta de mais informações elaboradas sobre alguns itens. No geral, 
+              estou satisfeito com minha compra!"
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="/Ecommerce/images/user-1.png" alt="" />
+            <h3>Harry Potter</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+
+            <p>
+              "Excelente variedade de produtos e ótimos preços! 
+              A compra foi tranquila, mas o processo de pagamento poderia ser um pouco mais ágil. No final, tudo chegou conforme 
+              o combinado e estou bastante satisfeito."
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="/Ecommerce/images/user-2.png" alt="" />
+            <h3>Homem-Aranha</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+
+            <p>
+              "A loja tem uma ótima seleção de eletrônicos e a navegação no site é simples.
+               Só tive um pequeno problema com o prazo de entrega, que foi um pouco maior do que o esperado, 
+              mas nada que tenha me prejudicado muito."
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="/Ecommerce/images/user-3.png" alt="" />
+            <h3>Coringa</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brands -->
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="./assets/images/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-oppo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-paypal.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-philips.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-coca-cola.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Baixe o nosso aplicativo</h3>
+            <p>
+              Baixe o aplicativo para celular <br />
+              Android e iOS
+            </p>
+            <div class="app-logo">
+              <img src="/Ecommerce/images/play-store.png" alt="" />
+              <img src="/Ecommerce/images/app-store.png" alt="" />
+            </div>
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Siga-nos</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr/>
+      </div>
+    </div>
+    
+    <!-- scripts -->
+    <script src="/Ecommerce/js/toggleMenu.js"></script>
+    <script src="/Ecommerce/rellax.min.js"></script>
+  </body>
+</html>

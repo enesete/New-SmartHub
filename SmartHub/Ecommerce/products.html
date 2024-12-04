@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos</title>
+  <link rel="stylesheet" href="/Ecommerce/styles/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="/Ecommerce/images/logo.png" alt="" width="220px" /></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="products.html">Produtos</a></li>
+          <li><a href="account.html">Conta</a></li>
+          <!-- TODo: 22:20 -->
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="/Ecommerce/images/cart.png" alt="" width="30px" height="30px" /></a>
+      <img src="/Ecommerce/images/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+    </div>
+  </div>
+
+  <div class="small-container">
+    <div class="row row-2">
+      <h2>Todos os produtos</h2>
+      <select name="" id="">
+        <option value="">Classificação padrão</option>
+        <option value="">Classificar por preço</option>
+        <option value="">Classificar por popularidade</option>
+        <option value="">Classificar por classificação</option>
+        <option value="">Classificar por vendas</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-1.png" alt="" />
+        <h4>PC Gamer</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>R$3.750,00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-2.png" alt="" />
+        <h4>Notebook Acer Nitro 5</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>R$3.000,00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-3.png" alt="" />
+        <h4>Playstation 5</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>R$3.599,00</p>
+      </div>
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-4.png" alt="" />
+        <h4>Cadeira Gamer</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>R$899,00</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-5.png" alt="" />
+        <h4>Geforce RTX 3090</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>R$4.500,00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-6.png" alt="" />
+        <h4>Geforce RTX 4090</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>R$6.000,00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="/Ecommerce/images/exclusive.png" alt="" />
+        <h4>Smart Band 4</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>R$200,00</p>
+      </div>
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-8.png" alt="" />
+        <h4>AirPods 4</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>R$1.900,00</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-9.png" alt="" />
+        <h4>Iphone 15 Pro Max - <br>
+        Azul 256gb</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>R$6.000,00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-11.png" alt="" />
+        <h4>Scooter Elétrica</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>R$9.960,00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-12.png" alt="" />
+        <h4>Xbox Series S</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>R$2.599,00</p>
+      </div>
+      <div class="col-4">
+        <img src="/Ecommerce/images/products/product-13.png" alt="" />
+        <h4>Dualsense</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>R$400,00</p>
+      </div>
+    </div>
+
+    <div class="page-btn">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+      <span>&#8594;</span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Baixe o nosso aplicativo</h3>
+          <p>
+            Baixe o aplicativo para celular<br />
+            Android e iOS
+          </p>
+          <div class="app-logo">
+            <img src="/Ecommerce/images/play-store.png" alt="" />
+            <img src="/Ecommerce/images/app-store.png" alt="" />
+          </div>
+        </div>
+
+        <div class="footer-col-4">
+          <h3>Siga-nos</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </div>
+  
+  <script src="/Ecommerce/js/toggleMenu.js"></script>
+</body>
+
+</html>
